@@ -1,5 +1,5 @@
-name="Wine4.0"
-package_name="winehq-stable"
+name="Wine"
+package_name="wine"
 description="WineWindowsエミュレーター"
 run_preparing=false
 install(){
