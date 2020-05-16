@@ -5,6 +5,7 @@ run_preparing=false
 install(){
     wget http://kr.archive.ubuntu.com/ubuntu/pool/universe/m/medit/medit_1.2.0-3_amd64.deb
     apt-get install ./medit_1.2.0-3_amd64.deb
+    rm medit_1.2.0-3_amd64.deb
 }
 uninstall(){
     apt-get purge ${package_name} -y
