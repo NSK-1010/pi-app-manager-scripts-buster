@@ -1,6 +1,6 @@
 name="chromium"
 package_name="chromium"
-description="SereneLinuxのデフォルトブラウザー"
+description="Chromiumブラウザー"
 run_preparing=false
 install(){
     apt-get install -y ${package_name}
