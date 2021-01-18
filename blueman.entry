@@ -4,7 +4,7 @@ description="Bluetoothを扱うためのソフトウェア"
 run_preparing=false
 
 install(){
-        #-- 関数定義 --#
+    #-- 関数定義 --#
     # ウィンドウの基本型
     function window () {
         zenity \
